@@ -1,3 +1,5 @@
+<%= render(@conn, "header.html") %>
+
 <div class="simplo-post">
   <h3 class="simplo-post-title">
     <%= @post.title %>
@@ -9,3 +11,5 @@
     <p><small><em>Published at <%= @post.published_at %>.</em></small></p>
   </div>
 </div>
+
+<%= render(@conn, "footer.html") %>

@@ -1,2 +1,8 @@
-<h3>Not Found</h3>
-<p>Whatever you are looking for isn't here... Why don't you try <a href="#">searching</a> or <a href="#">return home</a>?
+<%= render(@conn, "header.html") %>
+
+<div>
+  <h3>Not Found</h3>
+  <p>Whatever you are looking for isn't here... Why don't you try <a href="#">searching</a> or <a href="#">return home</a>?
+</div>
+
+<%= render(@conn, "footer.html") %>

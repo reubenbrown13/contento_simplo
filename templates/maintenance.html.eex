@@ -1,5 +1,0 @@
-<%= render(@conn, "header.html") %>
-
-<h1>Maintenance</h1>
-
-<%= render(@conn, "footer.html") %>
